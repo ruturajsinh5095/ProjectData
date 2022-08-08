@@ -99,3 +99,11 @@ SELECT * FROM Cart;
 DELETE FROM Cart;
 
 
+CREATE TABLE user (
+	user_id INT auto_increment,
+	phone varchar(14) NOT NULL ,
+    PRIMARY KEY(user_id)
+);
+
+
+
